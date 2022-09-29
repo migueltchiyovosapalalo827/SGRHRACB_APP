@@ -49,6 +49,7 @@ Route::middleware(['auth'])->group(function () {
 Route::get('/imprimirListaEfectivos/{unidade}', [App\Http\Controllers\UnidadeController::class,'imprimirListaEfectivos'])->name('imprimirListaEfectivos');
 Route::post('categoriasGetsubcategorias/{categoria}', [App\Http\Controllers\CategoriaController::class,'getSubcategorias'])->name('categorias.subcategorias');
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/LISTA_DOS_MILITARESPOR_IDADE/{print?}', [App\Http\Controllers\ReporterController::class,'LISTA_DOS_MILITARESPOR_IDADE'])->name('efectivos.por.idade');
 });
 
 

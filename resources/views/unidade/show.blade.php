@@ -67,11 +67,11 @@
                                       <tr>
                                             <td>{{ $loop->index +1 }}</td>
                                             <td>{{ $efectivo->nome }}</td>
-                                            <td>{{ $efectivo->feliciacao }}</td>
-                                            <td>{{ $efectivo->data_nascimento }}</td>
-                                            <td>{{ $efectivo->data_incorporacao }}</td>
+                                            <td>{{ $efectivo->fliacao }}</td>
+                                            <td>{{ $efectivo->data_de_nascimento }}</td>
+                                            <td>{{ $efectivo->data_de_incorporacao }}</td>
                                             <td>{{ $efectivo->nip }}</td>
-                                            <td>{{ $efectivo->nbi }}</td>
+                                            <td>{{ $efectivo->numero_do_bi }}</td>
                                             <td>{{ $efectivo->iban }}</td>
                                       </tr>
                                   @empty
